@@ -92,14 +92,16 @@ p {
   border-left-color: var(--orange-dark);
 }
 
-
+button:hover {
+  color:#934423;
+}
 /* Buttons */
 
   /* INSERT BUTTON STYLES HERE */
 
 
 /* Content */
-
+button:focus
 .content {
   display: flex;
   flex-direction: column;
@@ -116,7 +118,14 @@ p {
   padding: 1.5rem 1rem;
   margin-bottom: 2rem;
 }
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
+
+  /* or space-around */
+}
 /* hero */
 
 .hero {
